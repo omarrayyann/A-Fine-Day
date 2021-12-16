@@ -65,13 +65,16 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 
 # User Guide
 1- Clone the repositry to your machine
+
 2- Open the folder using Unity
+
 3- Connect the devices (Ultraleap and Oculus Rift)
+
 4- Build and Run the Project
 
 # Screenshots
 
-![Uploading Bitmap.png…]()
+![image](https://user-images.githubusercontent.com/77675540/146443162-c4884f3a-ee5a-4895-8f84-e55eeb3143a0.png)
 
 ![image](https://user-images.githubusercontent.com/77675540/146442661-8e3043ab-19e0-4799-985c-0eb82c4a330a.png)
 
