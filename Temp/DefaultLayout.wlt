@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/omarrayyann/Desktop/NYUAD/Fall 2021/CPE/Term Project/MidtermReport
+  m_LastProjectPath: /Users/omarrayyann/Desktop/NYUAD/Fall 2021/CPE/Term Project/A-Fine-Day
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
