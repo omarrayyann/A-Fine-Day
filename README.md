@@ -4,21 +4,13 @@ A Fine Day is a gamified version of stroke rehabilitation that allows patients t
 
 We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze
 
-Whack-A-Mole (WAM) Minigame:
+# Whack-A-Mole (WAM) Minigame
 
-Basket Minigame
 Works on:
-Hand-eye coordination
-Range-of-Motion
-Speed
-Has two versions:
-Non-timed: less stressful version of the game of which the objective is to hit a predefined number of targets. First few levels  so the player can slowly progress.
-Timed: a race against time to hit at least a certain number of targets before the time runs out.
-Works on:
-Hand-eye coordination
-Range-of-Motion
-Grasping skills
-Manipulating the environment
+- Hand-eye coordination
+- Range-of-Motion
+- Speed
+
 Goal:
 Place apples that randomly spawn on a tree in front of you into the basket. The player is scored according to their accuracy, i.e. how many apples the manage to place in the basket out of the total apples spawned
 
