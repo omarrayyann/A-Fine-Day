@@ -4,7 +4,9 @@ A Fine Day is a gamified version of stroke rehabilitation that allows patients t
 
 We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze
 
-# Whack-A-Mole (WAM) Minigame
+# Mini-Games
+
+**1- Whack-A-Mole (WAM) Minigame**
 
 Works on:
 - Hand-eye coordination
@@ -13,14 +15,18 @@ Works on:
 
 ![Bitmap](https://user-images.githubusercontent.com/77675540/146438818-12cb6eb8-93eb-482e-b66a-6a3ab8da0ccc.png)
 
+**2- Baskets Minigame**
 
+Works on:
+- Hand-eye coordination
+- Range-of-Motion
+- Speed
+- Grasping skills
+- Manipulating the environment
 
+![image](https://user-images.githubusercontent.com/77675540/146441239-4361ca89-010b-4f6b-95c2-b823a1920db8.png)
 
-
-
-
-
-**Software/Hardware Tools:**
+- **Software/Hardware Tools:**
 
 Devices: Oculus Rift, Ultraleap Hand-Tracking
 Software/Development Environment: Unity, Leap Motion
@@ -29,9 +35,13 @@ Assets: SDKs (Unity & Oculus Rift), free 3D models from online asset stores (Cit
 
 Challenges:
 
-- Figuring out which Ultraleap components/commands to use and when there was very little documentation.
+- Figuring out which Ultraleap components/commands to use and when since there was very little documentation, was the main issue throughout the start of the project. Once we go that ball rolling everything was generally smooth.
+- Refactoring code such that it's modular to allow future changes to the project.
+- Targets weren’t responding to collisions from the ultraleap hand. After some research we figured out we had to add the InteractionBehaviour script
 - Calibration: When the game starts, the target was always spawning very low compared to the player. After testing, we figured out that the sensor was taking time to calibrate the height. Therefore, we came up with the Calibrate script.
-- We spent a lot of time trying to fix a problem with the graphing 
+- We spent a lot of time trying to fix a problem with the graphing only to discover that there was a non-commented artifact from old code.
+- Whenever a menu would become enabled, the player would accidentally press it because their hands were already there. We came up with the wait script for that where the menus stay unresponsive for a few seconds after spawning.
+
 
 Conclusion and Future Development
 
@@ -49,5 +59,8 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 - Creating an online community with leaderboards, weekly challenges, online multiplayer functionality, etc. That would ensure the games never get boring and the patients never feel lonely while playing the games.
 - Improving on the graphics: while the current graphics look generally beautiful, more can be done like adding animations and sounds to make the background elements come to life. 
 
-
-
+#User Guide**
+1- Clone the repositry to your machine
+2- Open the folder using Unity
+3- Connect the devices (Ultraleap and Oculus Rift)
+4- Build and Run the Project
