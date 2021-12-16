@@ -2,7 +2,7 @@
 
 A Fine Day is a gamified version of stroke rehabilitation that allows patients to regain their limbs functionality in an engaging environment and therapists to remotely track patient progress. We would like to focus our efforts for this version of the game on developing games that target patients’ range-of-motion and motor skills.
 
-We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze
+We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze.
 
 # Mini-Games
 
@@ -25,6 +25,10 @@ Works on:
 - Manipulating the environment
 
 ![image](https://user-images.githubusercontent.com/77675540/146441239-4361ca89-010b-4f6b-95c2-b823a1920db8.png)
+
+**Velocity-Time & Acceleration-Time Graphs are generated based on the patient hand motion
+
+![image](https://user-images.githubusercontent.com/77675540/146442410-5f27d826-8bf6-4670-8a40-37c37f3e1da4.png)
 
 - **Software/Hardware Tools:**
 
@@ -59,8 +63,16 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 - Creating an online community with leaderboards, weekly challenges, online multiplayer functionality, etc. That would ensure the games never get boring and the patients never feel lonely while playing the games.
 - Improving on the graphics: while the current graphics look generally beautiful, more can be done like adding animations and sounds to make the background elements come to life. 
 
-#User Guide**
+#User Guide
 1- Clone the repositry to your machine
 2- Open the folder using Unity
 3- Connect the devices (Ultraleap and Oculus Rift)
 4- Build and Run the Project
+
+#Screenshots
+
+![image](https://user-images.githubusercontent.com/77675540/146442661-8e3043ab-19e0-4799-985c-0eb82c4a330a.png)
+
+
+
+Conclusion and Future Development
