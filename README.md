@@ -11,8 +11,7 @@ Works on:
 - Range-of-Motion
 - Speed
 
-Goal:
-Place apples that randomly spawn on a tree in front of you into the basket. The player is scored according to their accuracy, i.e. how many apples the manage to place in the basket out of the total apples spawned
+![Bitmap](https://user-images.githubusercontent.com/77675540/146438818-12cb6eb8-93eb-482e-b66a-6a3ab8da0ccc.png)
 
 
 
@@ -20,7 +19,8 @@ Place apples that randomly spawn on a tree in front of you into the basket. The 
 
 
 
-** Software/Hardware Tools:
+
+**Software/Hardware Tools:**
 
 Devices: Oculus Rift, Ultraleap Hand-Tracking
 Software/Development Environment: Unity, Leap Motion
@@ -29,34 +29,27 @@ Assets: SDKs (Unity & Oculus Rift), free 3D models from online asset stores (Cit
 
 Challenges:
 
-Figuring out which Ultraleap components/commands to use and when there was very little documentation.
-Calibration: When the game starts, the target was always spawning very low compared to the player. After testing, we figured out that the sensor was taking time to calibrate the height. Therefore, we came up with the Calibrate script.
-We spent a lot of time trying to fix a problem with the graphing 
+- Figuring out which Ultraleap components/commands to use and when there was very little documentation.
+- Calibration: When the game starts, the target was always spawning very low compared to the player. After testing, we figured out that the sensor was taking time to calibrate the height. Therefore, we came up with the Calibrate script.
+- We spent a lot of time trying to fix a problem with the graphing 
 
 Conclusion and Future Development
 
-Conclusion: 
 We were able to achieve most of our goals for this project. Starting from just setting up the environment, to creating the interaction skeletons, to creating the menus and graphings functionality, to integrating all of the functionalities together, and to finally designing the environment with beautiful assets, “A Fine Day” has gone a long way.
 
 Ever since the beginning we kept the same goal in mind, regardless of the changes we made along the way: providing a fun and motivating environment for patients to work on their motor skills while logging their progress for the therapist to see.
 
 Looking to the future, one can see a lot of potential for this project to grow, making it more useful for both the player and therapist.
 
-Future Development:
+**Future Development:**
 
+- It would be extremely beneficial if the game generated the levels according to the user's past progress, personalizing the experience and making sure no player is lagging behind or finding the minigames extremely easy. We can see this being implemented in our solution by integrating the Levels and DataManager scripts into a LevelSpawner script that analyzes past player progress and creates progressively more difficult levels .
+- Adding a “Show Past Progress” button to the main menu. We had that in mind while designing the menu scripts and even managed to get the GraphingMenu script to work in the minigames, but we didn’t have time to implement the last step of adding it to the main menu. The tools are already there though and with little work they can be added to the current solution. Additionally, we were planning on adding the axes to the current graphs but didn’t have the time to do so. A future version of this project should implement this fix.
+- Adding a cartoon companion (e.g. robot or animal) to give motivational quotes to the player and explain the rules to them. This companion would provide great company for the user as they are playing such that they never feel alone or bored.
+- Creating an online community with leaderboards, weekly challenges, online multiplayer functionality, etc. That would ensure the games never get boring and the patients never feel lonely while playing the games.
+- Improving on the graphics: while the current graphics look generally beautiful, more can be done like adding animations and sounds to make the background elements come to life. 
 
-It would be extremely beneficial if the game generated the levels according to the user's past progress, personalizing the experience and making sure no player is lagging behind or finding the minigames extremely easy. We can see this being implemented in our solution by integrating the Levels and DataManager scripts into a LevelSpawner script that analyzes past player progress and creates progressively more difficult levels .
-Adding a “Show Past Progress” button to the main menu. We had that in mind while designing the menu scripts and even managed to get the GraphingMenu script to work in the minigames, but we didn’t have time to implement the last step of adding it to the main menu. The tools are already there though and with little work they can be added to the current solution. Additionally, we were planning on adding the axes to the current graphs but didn’t have the time to do so. A future version of this project should implement this fix.
-Adding a cartoon companion (e.g. robot or animal) to give motivational quotes to the player and explain the rules to them. This companion would provide great company for the user as they are playing such that they never feel alone or bored.
-Creating an online community with leaderboards, weekly challenges, online multiplayer functionality, etc. That would ensure the games never get boring and the patients never feel lonely while playing the games.
-Adding more minigames such as:
-Air-hockey
-Placing objects in precise positions
-Pat-a-cake
-Fishing
-Improving on the graphics: while the current graphics look generally beautiful, more can be done like adding animations and sounds to make the background elements come to life. 
-
-Reflection on Learning 
+**Reflection on Learning**
 
 At the end of this semester-long project, we take a moment to reflect on the skills we gained along the way, the mistakes we made, and what we learned from them.
 Working with C# and Unity: 
@@ -76,31 +69,4 @@ Losing a teammate along the way (not literally losing him he’s fine):
 As the rebranding of our team suggests (The ODD Team -> The DO Team), one of our team members left the group, turning our team into a two-member group.
 It was difficult to adjust given how ambitious our goals were. However, over time, we managed to figure out a process that worked for us and managed to split the work evenly such that the workload stayed generally manageable. Naturally, we had to scrap some elements from the final product to wrap up in time, but we think it’s safe to say that we delivered in spite of this major setback.
 
-
-
-Final Project Report Template [Project Title]
-Team Members
- 
- 
- 
-1. 	Introduction
- 
-This section introduces the problem statement and provides background about the project (why this is important, how it can be useful). It can also have the project objectives.
- 
- 
-2. 	Project Development
- 
-This section describes the various software/devices that are utilized in this project and how the project is built. You may also describe any additional assets used in the project (such as 3D models, images, videos, audio, etc.). Snapshots of various elements/functionalities of the project may also be included here. Explanation of any code you developed should also be included in this section.
- 
-3. 	Results and Evaluation
- 
-This section describes how you evaluated the functionalities of this software. Explanations of challenges, errors, and debugging can also be included in this section.
- 
-4. 	Conclusion and Future work
- 
-This section presents a summary of the project achievements and a short discussion on potential future developments.
- 
-5. 	Reflection on Learning
- 
-This section summarizes the learning outcome of this project (what you have learned as you developed this project).
 
