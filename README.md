@@ -4,7 +4,7 @@ A Fine Day is a gamified version of stroke rehabilitation that allows patients t
 
 We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze.
 
-# Mini-Games
+# Mini-Games:
 
 **1- Whack-A-Mole (WAM) Minigame**
 
@@ -26,7 +26,7 @@ Works on:
 
 ![image](https://user-images.githubusercontent.com/77675540/146441239-4361ca89-010b-4f6b-95c2-b823a1920db8.png)
 
-**Velocity-Time & Acceleration-Time Graphs are generated based on the patient hand motion
+**Velocity-Time & Acceleration-Time Graphs are generated based on the patient hand motion**
 
 ![image](https://user-images.githubusercontent.com/77675540/146442410-5f27d826-8bf6-4670-8a40-37c37f3e1da4.png)
 
