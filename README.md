@@ -30,11 +30,11 @@ Works on:
 
 ![image](https://user-images.githubusercontent.com/77675540/146442410-5f27d826-8bf6-4670-8a40-37c37f3e1da4.png)
 
-- **Software/Hardware Tools:**
+Software/Hardware Tools:
 
-Devices: Oculus Rift, Ultraleap Hand-Tracking
-Software/Development Environment: Unity, Leap Motion
-Assets: SDKs (Unity & Oculus Rift), free 3D models from online asset stores (Citations at the end)
+- Devices: Oculus Rift, Ultraleap Hand-Tracking
+- Software/Development Environment: Unity, Leap Motion
+- Assets: SDKs (Unity & Oculus Rift), free 3D models from online asset stores (Citations at the end)
 
 
 Challenges:
@@ -47,7 +47,7 @@ Challenges:
 - Whenever a menu would become enabled, the player would accidentally press it because their hands were already there. We came up with the wait script for that where the menus stay unresponsive for a few seconds after spawning.
 
 
-Conclusion and Future Development
+Conclusion and Future Development:
 
 We were able to achieve most of our goals for this project. Starting from just setting up the environment, to creating the interaction skeletons, to creating the menus and graphings functionality, to integrating all of the functionalities together, and to finally designing the environment with beautiful assets, “A Fine Day” has gone a long way.
 
@@ -55,7 +55,7 @@ Ever since the beginning we kept the same goal in mind, regardless of the change
 
 Looking to the future, one can see a lot of potential for this project to grow, making it more useful for both the player and therapist.
 
-**Future Development:**
+Future Development:
 
 - It would be extremely beneficial if the game generated the levels according to the user's past progress, personalizing the experience and making sure no player is lagging behind or finding the minigames extremely easy. We can see this being implemented in our solution by integrating the Levels and DataManager scripts into a LevelSpawner script that analyzes past player progress and creates progressively more difficult levels .
 - Adding a “Show Past Progress” button to the main menu. We had that in mind while designing the menu scripts and even managed to get the GraphingMenu script to work in the minigames, but we didn’t have time to implement the last step of adding it to the main menu. The tools are already there though and with little work they can be added to the current solution. Additionally, we were planning on adding the axes to the current graphs but didn’t have the time to do so. A future version of this project should implement this fix.
