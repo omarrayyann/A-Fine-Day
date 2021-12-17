@@ -76,7 +76,7 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 1- Ultraleap Hand Tracker
 2- Oculus Rift VR
 
-# Screenshots
+# Screenshots:
 
 ![image](https://user-images.githubusercontent.com/77675540/146443162-c4884f3a-ee5a-4895-8f84-e55eeb3143a0.png)
 
