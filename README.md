@@ -86,4 +86,4 @@ Team Members
 
 - **[Omar Rayyan](https://github.com/omarrayyann)**
 
--**[Dhiyaa Al Jorf](https://github.com/DoodyShark)**
+- **[Dhiyaa Al Jorf](https://github.com/DoodyShark)**
