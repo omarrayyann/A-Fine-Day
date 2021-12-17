@@ -63,7 +63,7 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 - Creating an online community with leaderboards, weekly challenges, online multiplayer functionality, etc. That would ensure the games never get boring and the patients never feel lonely while playing the games.
 - Improving on the graphics: while the current graphics look generally beautiful, more can be done like adding animations and sounds to make the background elements come to life. 
 
-# User Guide
+# User Guide:
 1- Clone the repositry to your machine
 
 2- Open the folder using Unity
@@ -72,9 +72,16 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 
 4- Build and Run the Project
 
+# Devices Needed to Run this Project:
+1- Ultraleap Hand Tracker
+2- Oculus Rift VR
+
 # Screenshots
 
 ![image](https://user-images.githubusercontent.com/77675540/146443162-c4884f3a-ee5a-4895-8f84-e55eeb3143a0.png)
 
 ![image](https://user-images.githubusercontent.com/77675540/146442661-8e3043ab-19e0-4799-985c-0eb82c4a330a.png)
 
+Team Members 
+-[Omar Rayyan](https://github.com/omarrayyann)
+-[Dhiyaa Al Jorf](https://github.com/DoodyShark)
