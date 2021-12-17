@@ -82,7 +82,7 @@ Looking to the future, one can see a lot of potential for this project to grow, 
 
 ![image](https://user-images.githubusercontent.com/77675540/146442661-8e3043ab-19e0-4799-985c-0eb82c4a330a.png)
 
-**Team Members:**
+# Team Members:
 
 - **[Omar Rayyan](https://github.com/omarrayyann)**
 
