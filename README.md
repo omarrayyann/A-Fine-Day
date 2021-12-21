@@ -1,6 +1,6 @@
 # A Fine Day
 
-A Fine Day is a gamified version of stroke rehabilitation that allows patients to regain their limbs functionality in an engaging environment and therapists to remotely track patient progress. We would like to focus our efforts for this version of the game on developing games that target patients’ range-of-motion and motor skills.
+"A Fine Day" is a gamified version of stroke rehabilitation that allows patients to regain their limbs functionality in an engaging environment and therapists to remotely track patient progress. We would like to focus our efforts for this version of the game on developing games that target patients’ range-of-motion and motor skills.
 
 We integrated VR (Oculus Rift) and hand-tracking (Ultraleap) to replicate motor skill and range-of-motion exercises in more engaging way while keeping track of the motion data for the therapist to analyze.
 
